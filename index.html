@@ -3,12 +3,148 @@
 <head>
 	<meta charset="utf-8">
 	<title>Lab 7 - Webpage Develop</title>
-	<link href="" rel="stylesheet" type="text/css">
+	<link href="./assets/css/style.css" rel="stylesheet" type="text/css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap" rel="stylesheet">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+	<main class="main">
+		<section class="header">
+			<div class="header__container">
+				<div class="header__logo">
+					<img src="./assets/images/logo-covid.svg" alt="logo-icon" class="logo__icon">
+					<div class="logo__text">COVID-19</div>
+				</div>
+				<div class="header__menu">
+					<div class="menu__item">ПРО ВІРУС</div>
+					<div class="menu__item">СИМПТОМИ</div>
+					<div class="menu__item">ПРОФІЛАКТИКА</div>
+					<div class="menu__item last_item">ГАРЯЧА ЛІНІЯ</div>
+				</div>
+			</div>
+		</section>
+		<section class="information_section">
+			<div class="information__container">
+				<img src="./assets/images/hero.jpg" alt="here-image" class="information__image">
+				<p class="information__text">Коронавірус — це гостре вірусне захворювання, що характеризується переважним ураженням дихальної системи та шлунково-кишкового тракту. Коронавірус є зоонозною (природною) інфекцією за походженням. Вперше був зафіксований серед людей у Китаї в місті Ухань наприкінці <span style="color: #8c3232">2019</span> року та став сьогодні причиною масштабного спалаху респіраторних захворювань із важкими ускладненнями й високою смертністю.</p>
+				<div class="list">
+					<span class="list__title">
+						Імовірна передача коронавірусу від тварин до людини та поміж людьми:
+					</span>
+					<div class="list__item">
+						<img src="./assets/images/li-icon.svg" alt="logo-icon" class="item_icon">
+						<div class="item_text">При котакті з хворим на короновірусну інфекцію Lorem ipsum dolor sit.</div>
+					</div>
+					<div class="list__item">
+						<img src="./assets/images/li-icon.svg" alt="logo-icon" class="item_icon">
+						<div class="item_text">При безпосередньому фізичному контакті із зараженими людьми та тваринами;</div>
+					</div>
+					<div class="list__item">
+						<img src="./assets/images/li-icon.svg" alt="logo-icon" class="item_icon">
+						<div class="item_text">При вживанні сирих або недостатньо термічно оброблених м’ясних і рибних продуктів, яєць.</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="symptoms_section">
+			<div class="symptoms__container">
+				<div class="headline">СИМПТОМИ</div>
+				<div class="symptoms__content">
+					<div class="image_block">
+						<div class="image_box box_1">
+							<img src="./assets/images/symptoms/temp.png" alt="" class="symptom_image">
+							<div class="image_box__title">Підвищена температура</div>
+						</div>
+						<div class="image_box box_2">
+							<img src="./assets/images/symptoms/sneeze.png" alt="" class="symptom_image">
+							<div class="image_box__title">Чхання</div>
+						</div>
+						<div class="image_box box_3">
+							<img src="./assets/images/symptoms/cough.png" alt="" class="symptom_image">
+							<div class="image_box__title">Кашель</div>
+						</div>
+						<div class="image_box box_4">
+							<img src="./assets/images/symptoms/hbreath.png" alt="" class="symptom_image">
+							<div class="image_box__title">Утруднене дихання</div>
+						</div>
+					</div>
+					<div class="text_block">
+						<p class="paragraph">На початковому етапі зараження новим типом збудника ознаки коронавірусу збігаються з усіма ознаками звичайної застуди: сухий кашель, слабкість, підвищення температури. У деяких пацієнтів відзначаються ураження очей (кон’юнктивіт) та діарея. Якщо захворювання протікає в легкій формі, запалення легенів не розвивається й весь патологічний процес обмежується слабо вираженими симптомами. У таких випадках температура може підніматися незначно або взагалі залишатися в межах норми.</p>
+						<p class="paragraph">При важких формах захворювання стан пацієнта швидко погіршується, піднімається дуже висока температура, з’являється непродуктивний сильний кашель, розвивається дихальна недостатність. Стан хворого значно погіршується, якщо є супутні захворювання.</p>
+						<p class="paragraph">До симптомів слід поставитися максимально уважно, займатися самолікуванням ні в якому разі не варто. Залишайтеся вдома і викличте лікаря за номером <span style="color: #8c3232">103</span>.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="preventions">
+			<div class="preventions__container">
+				<div class="headline"></div>
+				<div class="preventions__content">
+					<div class="content__box">
+						<div class="left">
+							<img src="./assets/images/preventions/wash.png" alt="" class="content_image">
+						</div>
+						<div class="right">
+							<div class="content_text">Найважливіше, що можна зробити, — це підтримувати чистоту рук, а коли кашляєте або чхаєте, прикривайте ніс і рот одноразовою серветкою.</div>
+						</div>
+					</div>
+					<div class="content__box">
+						<div class="left">
+							<img src="./assets/images/preventions/touches.png" alt="" class="content_image">
+						</div>
+						<div class="right">
+							<div class="content_text">Намагайтеся не торкатися рота, носа або очей немитими руками (зазвичай ми несвідомо робимо такі дотики в середньому <span style="color: #8c3232">15</span> разів на годину).</div>
+						</div>
+					</div>
+					<div class="content__box">
+						<div class="left">
+							<img src="./assets/images/preventions/rules.png" alt="" class="content_image">
+						</div>
+						<div class="right">
+							<div class="content_text">Дотримуйтесь правил та рекомендацій, встановлених органами влади, під час карантинного періоду.</div>
+						</div>
+					</div>
+					<div class="content__box">
+						<div class="left">
+							<img src="./assets/images/preventions/home.png" alt="" class="content_image">
+						</div>
+						<div class="right">
+							<div class="content_text">Залишайтеся вдома, при появі симптомів, схожих на коронавірус, самоізолюйтеся і відразу викликайте лікаря.</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="video_section">
+			<div class="video__container">
+				<div class="headline">Подбайте про дистанцію та маску</div>
+				<video
+                        class="video"
+                        loop
+                        muted
+                        autoPlay
+                    >
+                        <source src="./assets/video/covid19.mp4" />
+                </video>
+			</div>
+		</section>
+		<section class="footer">
+			<div class="footer__container">
+				<div class="f_image_block">
+					<img src="./assets/images/med.svg" alt="" class="image_block">
+				</div>
+				<div class="hotline_block">
+					<div class="title">ГАРЯЧА ЛІНІЯ МОЗУ</div>
+					<div class="number">0 800 505 201</div>
+				</div>
+				<div class="ambulance_block">
+					<div class="title">ШВИДКА ДОПОМОГА</div>
+					<div class="number">103</div>
+				</div>
+			</div>
+		</section>
+	</main>
 </body>
 </html>
